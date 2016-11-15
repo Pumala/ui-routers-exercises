@@ -1,0 +1,9 @@
+<div>
+  <h1>{{pageName}}</h1>
+  <p>
+    {{page.content}}
+  </p>
+  <!-- Not a url link; links to a state by the name -->
+  <!-- pass in page_name => create dynamic pages -->
+  <a ui-sref="edit_page({page_name: pageName})">Edit Page Content</a>
+</div>
